@@ -41,3 +41,8 @@ Then start caddy with the following command
 $ caddy -type=udpproxy
 ```
 
+## References
+
+1. [https://lists.zx2c4.com/pipermail/wireguard/2017-November/002016.html](https://lists.zx2c4.com/pipermail/wireguard/2017-November/002016.html)
+2. [https://utcc.utoronto.ca/~cks/space/blog/linux/WireGuardEarlyNotes](https://utcc.utoronto.ca/~cks/space/blog/linux/WireGuardEarlyNotes)
+3. [https://blog.kechako.com/entry/create-udp-conn-each-client](https://blog.kechako.com/entry/create-udp-conn-each-client)
