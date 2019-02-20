@@ -15,7 +15,7 @@ Follow the guide here [https://github.com/mholt/caddy/wiki/Plugging-in-Plugins-Y
 The line to be added to `run.go` in the import section is
 
 ```go
-_ "gitlab.com/floydev/udpproxy"
+_ "github.com/def1oyd/udpproxy"
 ```
 
 ## Example
