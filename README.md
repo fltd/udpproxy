@@ -1,6 +1,6 @@
 # udpproxy
 
-udpproxy is a Server Type plugin for Caddy [https://caddyserver.com](https://caddyserver.com).
+udpproxy is a Server Type plugin for Caddy [https://caddyserver.com](https://caddyserver.com), it is modified from [https://github.com/pieterlouw/caddy-net](https://github.com/pieterlouw/caddy-net) by @pieterlouw.
 
 It proxies UDP traffic to a specified destination, and listen the reply on multiple addresses (defined via the `reply-addr-alias` directive in `Caddyfile`).
 
