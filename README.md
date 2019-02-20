@@ -18,3 +18,26 @@ The line to be added to `run.go` in the import section is
 _ "gitlab.com/floydev/udpproxy"
 ```
 
+## Example
+
+Suppose
+
+- The service recives requests at `10.0.0.254:12345`
+- `10.0.0.254` is a VIP, floating between `10.0.0.252` and `10.0.0.253`
+- The service is not able to use the VIP to send reply since it lacks capability of interface binding
+- The reply may come from `10.0.0.252` or `10.0.0.253`
+
+The `Caddyfile` will look like
+
+```
+proxy :12345 10.0.0.254:12345 {
+    reply-addr-alias 10.0.0.253:12345 10.0.0.252:12345
+}
+```
+
+Then start caddy with the following command
+
+```bash
+$ caddy -type=udpproxy
+```
+
