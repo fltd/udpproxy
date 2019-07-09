@@ -2,7 +2,7 @@ package directive
 
 import (
 	"github.com/def1oyd/udpproxy/server"
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 func init() {

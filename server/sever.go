@@ -6,7 +6,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 	"golang.org/x/sys/unix"
 )
 
