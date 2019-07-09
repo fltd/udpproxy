@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/mholt/caddy"
+	"github.com/caddyserver/caddy"
 )
 
 // udpProxy resembles a UDP proxy connection and pipe data between local and remote.
