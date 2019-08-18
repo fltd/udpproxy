@@ -2,7 +2,7 @@ package udpproxy
 
 import (
 	// plug in the server
-	_ "github.com/def1oyd/udpproxy/server"
+	_ "github.com/fltd/udpproxy/server"
 	// plug in the standard directives
-	_ "github.com/def1oyd/udpproxy/directive"
+	_ "github.com/fltd/udpproxy/directive"
 )
